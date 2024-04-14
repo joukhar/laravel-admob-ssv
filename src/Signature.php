@@ -1,13 +1,13 @@
 <?php
 
-namespace Casperlaitw\LaravelAdmobSsv;
+namespace Joukhar\LaravelAdmobSsv;
 
 use Illuminate\Http\Request;
 
 /**
  * Class Signature
  *
- * @package Casperlaitw\LaravelAdmobSsv
+ * @package Joukhar\LaravelAdmobSsv
  */
 class Signature
 {

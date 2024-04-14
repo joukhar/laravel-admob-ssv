@@ -1,6 +1,6 @@
 <?php
 
-namespace Casperlaitw\LaravelAdmobSsv;
+namespace Joukhar\LaravelAdmobSsv;
 
 use Eastwest\Json\Json;
 use Exception;
@@ -14,7 +14,7 @@ use InvalidArgumentException;
 /**
  * Class PublicKey
  *
- * @package Casperlaitw\LaravelAdmobSsv
+ * @package Joukhar\LaravelAdmobSsv
  */
 class PublicKey
 {

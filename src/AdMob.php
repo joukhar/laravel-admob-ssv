@@ -1,6 +1,6 @@
 <?php
 
-namespace Casperlaitw\LaravelAdmobSsv;
+namespace Joukhar\LaravelAdmobSsv;
 
 use EllipticCurve\Ecdsa;
 use Illuminate\Http\Request;
@@ -12,7 +12,7 @@ use Kevinrob\GuzzleCache\Strategy\GreedyCacheStrategy;
 /**
  * Class AdMob
  *
- * @package Casperlaitw\LaravelAdmobSsv
+ * @package Joukhar\LaravelAdmobSsv
  */
 class AdMob
 {
