@@ -72,7 +72,7 @@ class AdMob
         PublicKey::cacheThrough(function () {
             return new CacheMiddleware(
                 new GreedyCacheStrategy(
-                    new LaravelCacheStorage(config('cache.default')),
+                    new LaravelCacheStorage(Cache::store(config('cache.default', 'redis'))),
                     43200
                 )
             );
